@@ -1,3 +1,4 @@
 screens
 *.adoc
 *.swp
+/.idea
