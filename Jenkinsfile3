@@ -1,9 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('Test') {
+    stage('Test1') {
       steps {
         sh 'python3 updatedDataEntryTest.py'
+      }
+    }
+    stage('Test2') {
+      steps {
+        sh 'python3 updatedFirstTestScript.py'
       }
     }
 }
